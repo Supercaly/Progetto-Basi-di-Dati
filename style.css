@@ -1,0 +1,42 @@
+/*Stile della Barra di navigazione */
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+ li a:hover:not(.active) {
+     background-color: #111;
+ }
+ .active {
+     background-color: #4CAF50;
+ }
+
+ /*stile della pagina profilo*/
+.div_infoutente, .div_element{
+    padding: 1%;
+    padding-left: 2%;
+}
+.div_element {
+    border-style: groove;
+}
+/*stile della pagina connessioni*/
+#div_cercaUtenti {
+    background-color: #4CAF50;
+    margin: 50px;
+}
